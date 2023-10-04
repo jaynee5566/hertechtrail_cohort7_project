@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4294e3;
-    --secondary: rgb(66, 6, 6);
-    --light: #f0f6ff;
-    --dark: #262b47;
+    --primary: #264b56;
+    --secondary: rgb(3, 107, 50);
+    --light: #edeff1;
+    --dark: #99a1a9;
 }
 
 /*** Spinner ***/
@@ -86,7 +86,7 @@ h6,
     position: relative;
     overflow: hidden;
     border: none;
-    color: #ffffff;
+    color: #b0a2a2;
     z-index: 1;
 }
 
@@ -230,7 +230,7 @@ h6,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--dark) !important;
+        color: var(--light) !important;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -470,7 +470,7 @@ h6,
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-top.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
-    background-position: left 0px bottom 0px, right 0px top 50%, center top;
+    background-position: left 0px bottom 0px, right 0px top 30%, center top;
     background-repeat: no-repeat;
 }
 
@@ -489,6 +489,10 @@ h6,
 
 .footer .btn.btn-social:hover {
     color: var(--primary);
+}
+
+{
+
 }
 
 .footer .btn.btn-link {
